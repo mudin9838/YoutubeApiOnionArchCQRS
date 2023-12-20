@@ -20,7 +20,7 @@ namespace YoutubeApi.Persistence.Configuration
                 CreatedDate = DateTime.Now,
                 isDeleted = false,
             };
-            Detail detail12 = new()
+            Detail detail2 = new()
             {
                 Id = 2,
                 Title = faker.Lorem.Sentence(1),
@@ -38,7 +38,7 @@ namespace YoutubeApi.Persistence.Configuration
                 CreatedDate = DateTime.Now,
                 isDeleted = false,
             };
-
+            builder.HasData(detail1, detail2, detail3);
         }
     }
 }

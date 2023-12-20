@@ -20,7 +20,7 @@ public class CategoryConfiguration : IEntityTypeConfiguration<Category>
 
         Category category2 = new()
         {
-            Id = 3,
+            Id = 2,
             Name = "Mobile",
             Priority = 2,
             ParentId = 0,

@@ -24,7 +24,7 @@ namespace YoutubeApi.Persistence.Configuration
             };
             Product product2 = new()
             {
-                Id = 1,
+                Id = 2,
                 Title = faker.Commerce.ProductName(),
                 Description = faker.Commerce.ProductDescription(),
                 BrandId = 3,
