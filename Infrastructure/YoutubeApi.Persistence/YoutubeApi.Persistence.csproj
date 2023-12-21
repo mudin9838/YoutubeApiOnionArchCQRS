@@ -21,4 +21,8 @@
     <ProjectReference Include="..\..\Core\YoutubeApi.Domain\YoutubeApi.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="UnitOfWorks\" />
+  </ItemGroup>
+
 </Project>
